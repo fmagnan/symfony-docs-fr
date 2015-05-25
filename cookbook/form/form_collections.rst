@@ -448,7 +448,7 @@ propriété ``tags`` de l'objet ``Task``.
 
     Pour réparer cela, vous pourriez choisir d'effectuer automatiquement l'opération
     de persistence en mode « cascade » de l'objet ``Task`` pour tout les tags liés.
-    Pour faire ceci, ajoutez l'option ``cascade`` à votre méta-donnée ``ManyToMany`` :
+    Pour faire ceci, ajoutez l'option ``cascade`` à votre méta-donnée ``OneToMany`` :
     
     .. configuration-block::
     
